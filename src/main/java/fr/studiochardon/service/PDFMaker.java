@@ -1,10 +1,10 @@
 package fr.studiochardon.service;
 
 
-import com.lowagie.text.*;
-import com.lowagie.text.Image;
-import com.lowagie.text.Rectangle;
-import com.lowagie.text.pdf.PdfWriter;
+import com.itextpdf.text.*;
+import com.itextpdf.text.Image;
+import com.itextpdf.text.Rectangle;
+import com.itextpdf.text.pdf.PdfWriter;
 
 import javax.imageio.ImageIO;
 import java.awt.*;

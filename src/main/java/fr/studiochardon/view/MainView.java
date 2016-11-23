@@ -1,9 +1,7 @@
 package fr.studiochardon.view;
 
-
 import fr.studiochardon.service.ImageMaker;
-import org.jfree.ui.tabbedui.VerticalLayout;
-import sun.security.util.Debug;
+//import org.jfree.ui.tabbedui.VerticalLayout;
 
 import javax.swing.*;
 import java.awt.*;
@@ -12,7 +10,7 @@ import java.io.File;
 import java.io.IOException;
 
 
-public class MainView extendsuuuuuuuuuuuuuuuuuuuuuuuuuu²"" JFrame {
+public class MainView extends JFrame {
 
     private String soloPicturesFolderPath;
     private String groupePicturesFolderPath;
@@ -21,7 +19,7 @@ public class MainView extendsuuuuuuuuuuuuuuuuuuuuuuuuuu²"" JFrame {
 
 
     public MainView() throws HeadlessException {
-        this.setLayout(new VerticalLayout());
+        this.setLayout(new GridLayout(10, 10));
 
         this.add(createFileChooser());
         this.add(createGroupPictureChooser());
