@@ -1,7 +1,6 @@
 package fr.studiochardon.view;
 
 import fr.studiochardon.service.ImageMaker;
-//import org.jfree.ui.tabbedui.VerticalLayout;
 
 import javax.swing.*;
 import java.awt.*;
